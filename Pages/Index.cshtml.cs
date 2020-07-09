@@ -23,6 +23,7 @@ namespace Heroku_Test.Pages
         public void OnGet()
         {
             ViewData["TestVar"] = Configuration["TestVar"];
+            ViewData["Blah"] = Configuration["Blah"];
         }
     }
 }
